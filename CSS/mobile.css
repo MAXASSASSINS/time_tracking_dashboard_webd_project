@@ -1,0 +1,109 @@
+@media screen and (max-width:1100px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        grid-template-columns: auto;
+        font-size: 18px;
+        max-height: 100vh;
+        margin-top: 7vh;
+    }
+
+    /* profile section  */
+    .profile{
+        width: 300px;
+
+    }
+    .report{
+        display: flex;
+        font-size: 18px;
+        align-items: center;
+        padding: 7%;
+    }
+    .reporting-image{
+        width: 60px;
+        text-align: center;
+        margin-right: 15px;
+    }
+    .reporting-image img{
+        width: 50px;
+    }
+    .report-for{
+        font-size: 12px;
+    }
+    .name{
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .profile-image{
+        margin: 0;
+    }
+
+    .plan{
+        padding: 0;
+    }
+
+    .plan ul{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 8%;
+    }
+
+    .duration{
+        width: auto;
+    }
+
+    /* activities section  */
+
+    .activities{
+        width: 300px;
+    }
+    h2{
+        font-size: 12px;
+    }
+    .activity-name{
+        font-size: 18px;
+        margin: 5px;
+        width: 240px;
+        translate: -6px -10px;
+    }
+
+    .title{
+        height: 20px;
+    }
+    .common{
+        background-size: 50px;
+        padding-top: 30px;
+    }
+
+    .time{
+        font-size: 22px;
+    }
+
+    .daily, .weekly, .monthly{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .previous{
+        margin: 0;
+    }
+
+    .dialy{
+        translate: 0 -10px;
+    }
+    .weekly{
+        translate: 0 -37px;
+    }
+
+    .monthly{
+        translate: 0 -64px;
+    }
+
+
+
+    
+}
